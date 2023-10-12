@@ -1,0 +1,27 @@
+.container {
+  width: 700px;
+  margin: 80px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.2); /* Couleur de l'ombre modifiée */
+  font-family: 'Arial', sans-serif; /* Police de caractères modifiée */
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
